@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="top"></div>
+    <div class="header">
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target="#box1">
+                        <span class="sr-only"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand"><img src="images/logo.png"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="box1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="">首页</a></li>
+                        <li><a href="Subpage4.html">走进武汉</a></li>
+                        <li><a href="Subpage1.html">出行方案</a></li>
+                        <li><a href="Subpage2.html">相册</a></li>
+                        <li><a href="Subpage3.html">游客信息采集</a></li>
+                        <li><a href="">联系我们</a></li>
+                        <li><button class="bth" data-toggle="modal" data-target="#mymodal">登录</button></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal  fade" id="mymodal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close" data-dismiss="modal">&times;</span>
+                            <h3>登录</h3>
+                            <div class="modal-body">
+                                <form action="" class="form-horizontal">
+                                    <div class="form-group">
+                                        <lable for="name" class="control-label col-lg-2 col-md-2">用户名</lable>
+                                        <div class="col-lg-10 col-md-10">
+                                            <input type="name" placeholder="name" id="name" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <lable for="user" class="control-label col-lg-2 col-md-2">账号</lable>
+                                        <div class="col-lg-10 col-md-10">
+                                            <input type="email" placeholder="email" id="user" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <lable for="pwd" class="control-label col-lg-2 col-md-2">密码</lable>
+                                        <div class="col-lg-10 col-md-10">
+                                            <input type="password" placeholder="password" id="pwd" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <button class="bth btn-block">登录</button>
+                                        <button class="bth btn-block">注册</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="bth btn-default" data-dismiss="modal">取消</button>
+                                <button class="bth btn-default">确定</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="slider">
+        <div class="slide current">
+            <div class="content">
+                <h1>武汉大学</h1>
+                <p>
+                    武汉大学溯源于1893年清末湖广总督张之洞奏请清政府创办的自强学堂，
+                    后历经方言学堂、武昌高等师范学校、国立武昌师范大学、国立武昌大学、
+                    国立第二中山大学等时期，1928年定名国立武汉大学，是近代中国第一批国立大学。
+                    2000年，武汉大学与武汉水利电力大学、武汉测绘科技大学、湖北医科大学合并组
+                    建新的武汉大学。
+                </p>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="content">
+                <h1>黄鹤楼</h1>
+                <p>黄鹤楼位于湖北省武汉市长江南岸的武昌蛇山之巅，
+                    濒临万里长江，是国家5A级旅游景区，“江南三大名楼”之一，
+                    自古享有“天下江山第一楼“和“天下绝景”之称。黄鹤楼是武汉市标志性建筑
+                    ，与晴川阁、古琴台并称“武汉三大名胜”。</p>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="content">
+                <h1>武汉大桥</h1>
+                <p>长江大桥，有狭义广义之分，狭义上仅指宜宾岷江口以下长江段上的桥梁，
+                    广义上则泛指长江干流上的所有桥梁。</p>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="content">
+                <h1>樱花</h1>
+                <p>樱花品种相当繁多，数目超过三百种以上，全世界共有野生樱花约150种，中国有50多种。
+                    其中，武汉大学的樱花最为称赞，引得数人观赏。</p>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="prev"><i class="fas fa-arrow-left">
+                    <</i></button>
+            <button id="next"><i class="fas fa-arrow-right">></i></button>
+        </div>
+    </div>
+    <div class="container">
+        <h2>武汉野生动物王国</h2>
+        <a href="#">更多>></a>
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6"><img src="images/4.jpg" class="img-responsive">
+                <div class="desc">
+                    <p>袋鼠</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6"><img src="images/5.jpg" class="img-responsive">
+                <div class="desc">
+                    <p>狐獴</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6"><img src="images/6.jpg" class="img-responsive">
+                <div class="desc">
+                    <p>长颈鹿</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6"><img src="images/7.jpg" class="img-responsive">
+                <div class="desc">
+                    <p>中国矮马</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <marquee scrolldelay="1" onMouseOver="stop()" onMouseOut="start()">
+            <p>
+                <li>寒冬来袭，为预防新冠疫情，请佩戴口罩，有序入场。2020-12-28</li>
+                <li>辞旧迎新，2020再见，2021你好。2021-1-1</li>
+                <li>春运期前，请旅客有序遵守相关规定，配合防控防疫。2012-1-10</li>
+            </p>
+        </marquee>
+    </div>
+    <div class="container">
+        <h2>服务</h2>
+        <a href="#">更多>></a>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="tab_fw">
+                    <b>住宿</b>
+                    <p>舒适的房屋和美丽的环境能让人心情愉悦，快来体验吧！</p>
+                    <a>let's go</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="tab_fw">
+                    <b>游购</b>
+                    <p>游玩与购物是不可或缺的，我们将有导游和出行代理陪伴在你身边</p>
+                    <a>let's go</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="tab_fw">
+                    <b>出行</b>
+                    <p>我们可以用最快的时间安排出行的飞机，船舶的交通工具</p>
+                    <a>let's go</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="tab_fw">
+                    <b>交流</b>
+                    <p>我们有来自各地的旅行者，这里可以让你认识更多的文化和风情</p>
+                    <a>let's go</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="tab_fw">
+                    <b>指南</b>
+                    <p>遇到不能理解的问题可以向工作人员提问，我们会告诉你正确答案</p>
+                    <a>let's go</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="tab_fw">
+                    <b>要做什么?</b>
+                    <p>不用刻意准备什么，我们这里已经为你准备妥当</p>
+                    <a>let's go</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <img src="images/logo.png" alt="">
+        <ul>
+            <li>版权所有@武汉旅游</li>
+            <li>地址:武昌区</li>
+            <li>邮编:43000</li>
+            <li>鄂ICP备05065075号-1</li>
+            <li>鄂公网安备 110402430047 号</li>
+        </ul>
+    </div>
+    <div class="botton"></div>
+    <script src="js/main.js"></script>
+    <script src="lib/jquery/jquery-1.11.0.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar {
+    padding: 20px 10px;
+}
+
+.top {
+    height: 20px;
+    background-color: #3c763d;
+}
+
+.navbar-brand>img {
+    width: 136px;
+    height: auto;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-default .navbar-nav>li {
+    left: 10px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    background-color: #3c763d;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.slider {
+    background-color: azure;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    padding: 10px 20px 20px 20px;
+}
+
+.slider h1 {
+    font-size: 20px;
+}
+
+.slider p {
+    color: burlywood;
+}
+.banner img{
+    width: 100%;
+    height: 500px;
+}
+.silder_font{
+    width: 80%;
+    /* border: 1px solid red; */
+}
+h3{
+    color: red;
+    text-align: center;
+}
+.silder_font v{
+    color: red;
+}
+.silder_font b p{
+    text-align: center;
+}
+.sx{
+    display: inline-block;
+    margin-top: 10px;
+}
+.pl{
+    margin-top: 10px;
+    float: right;
+}
+.footer{
+    width: 100vw;
+    height: 15vh;
+    background-color: #f8f8f8;
+}
+.footer img{
+    width: 20vh;
+    height: 10vh;
+    position:absolute;
+    left: 44%;
+}
+.footer ul{
+    position: absolute;
+    left: 15%;
+}
+.footer ul li{
+    float: left;
+    margin-left: 40px;
+    margin-top: 11vh;
+}
+@media(max-width:1200px){
+    .footer{
+        height: 30vh;
+    }
+}
+@media(max-width:900px){
+    .slider{
+        height: 150vw;
+      }
+      .pl{
+          float: left;
+      }
+}
+@media(max-width:1200px){
+    .pl{
+        display: inline-block;
+    }
+}
+@media(max-width:600px){
+ .slider{
+     height: 250vw;
+ }
+}
+.botton{
+    height: 20px;
+    background-color: #3c763d;
+}
